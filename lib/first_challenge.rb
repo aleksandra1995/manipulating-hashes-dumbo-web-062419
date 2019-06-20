@@ -20,7 +20,7 @@ contacts.each do |person,data|
     if attribute == :favorite_icecream_flavors
       attribute.delete_if do |attrib, flavor|
         flavor == "strawberry"
-          
+          binding.pry
       end
     end
   end
