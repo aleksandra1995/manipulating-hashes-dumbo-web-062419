@@ -5,7 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-empty []
+empty =  []
   #code your solution here!
 second_challenge[:groceries].each do |name, list|
   empty << list.values 
