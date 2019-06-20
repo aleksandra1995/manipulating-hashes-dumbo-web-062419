@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-second_challenge[groceries].each do |name, list|
+second_challenge[:groceries].each do |name, list|
   list.values 
   end 
 end
