@@ -7,9 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-second_challenge.each do |name, list|
-  list.each do |value|
-    value.values 
+second_challenge[groceries].each do |name, list|
+  list.values 
   end 
 end
   
