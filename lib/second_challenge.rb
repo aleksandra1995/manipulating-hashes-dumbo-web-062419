@@ -10,5 +10,5 @@ empty =  []
 second_challenge[:groceries].each do |list, value|
   list.values
   end 
-
+second_challenge
 end
