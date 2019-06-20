@@ -13,5 +13,4 @@ second_challenge.each do |name, list|
   end 
 end
   
-second_challenge
 end
