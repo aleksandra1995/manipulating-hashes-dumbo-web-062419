@@ -5,10 +5,5 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-empty =  []
-  #code your solution here!
-second_challenge[:groceries].each do |list, value|
-  list.values
-  end 
-second_challenge
+groceries.values.flatten
 end
