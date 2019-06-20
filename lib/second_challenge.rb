@@ -5,10 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-
+empty []
   #code your solution here!
 second_challenge[:groceries].each do |name, list|
-  list.values 
+  empty << list.values 
   end 
 
 end
