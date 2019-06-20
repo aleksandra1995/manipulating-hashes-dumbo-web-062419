@@ -19,12 +19,13 @@ contacts.each do |person,data|
   data.each do |attribute,value|
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
-        if flavor.delete == "strawberry" 
+        flavor.delete_if == "strawberry"
+          
       end
     end
   end
   #remember to return your newly altered contacts hash!
   contacts
-  return flavor
+  return favorite_icecream_flavors
 end
 
