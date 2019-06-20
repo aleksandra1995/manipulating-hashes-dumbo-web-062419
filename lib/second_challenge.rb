@@ -7,8 +7,8 @@ def second_challenge
   }
 empty =  []
   #code your solution here!
-second_challenge[:groceries].each do |name, list|
-  empty << list.values 
+second_challenge[:groceries].each do |list, value|
+  list.values
   end 
 
 end
