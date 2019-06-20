@@ -25,6 +25,7 @@ contacts.each do |person,data|
     end
   end
  end
+ contacts
 end
 contacts["Freddy Mercury"].each do |attribute, value|
       if attribute == :favorite_icecream_flavors
