@@ -10,6 +10,5 @@ def second_challenge
 second_challenge[:groceries].each do |name, list|
   list.values 
   end 
-end
-  
+
 end
