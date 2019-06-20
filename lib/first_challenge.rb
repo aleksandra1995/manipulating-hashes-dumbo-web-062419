@@ -1,4 +1,4 @@
-require 'pry'
+
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -27,8 +27,4 @@ contacts.each do |person,data|
  end
  contacts
 end
-contacts["Freddy Mercury"].each do |attribute, value|
-      if attribute == :favorite_icecream_flavors
-        value.delete_if do |flavor|
-          flavor == "strawberry"
 
